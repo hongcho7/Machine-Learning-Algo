@@ -37,6 +37,8 @@ def stratified_group_k_fold(X, y, groups, k, seed = None):
         y_counts_per_fold -= y_counts
         return np.mean(std_per_label)
         
+
+        
         
         
     

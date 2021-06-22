@@ -13,4 +13,3 @@ quality_mapping = {
 }
 
 df.loc[:, "quality"] = df.quality.map(quality_mapping)
-
